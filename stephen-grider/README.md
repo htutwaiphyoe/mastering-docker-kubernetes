@@ -15,3 +15,9 @@ docker cli => docker hub => docker image (single file containing all deps and co
 docker image => a single file stored on hard drive containing all deps and configs required to run a program
 
 containers => instances of docker image => running program with its own isolated hardware resources
+
+## 03. Docker for OS
+
+Docker Client => CLI tool for running commands
+
+Docker Server(Daemon) => tool for creating images and running containers
