@@ -21,3 +21,9 @@ containers => instances of docker image => running program with its own isolated
 Docker Client => CLI tool for running commands
 
 Docker Server(Daemon) => tool for creating images and running containers
+
+## 04. Docker Installation
+
+[docker download](https://www.docker.com/get-started/)
+
+docker version
