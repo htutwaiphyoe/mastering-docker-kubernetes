@@ -31,3 +31,15 @@ docker version
 ## 05. Hello World Docker
 
 docker run hello-world => docker client => docker server => image cache => docker hub => image cache => container
+
+## 06. What is a container?
+
+program => system call => kernel => hardware resources (CPU, Memory, Hard Disk)
+
+name spacing => make portions of resources => isolate resources per process
+
+control groups => limit the amount of resources for a process
+
+container => running process + resources
+
+docker image => filesystem snapshot + startup command
