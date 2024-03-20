@@ -43,3 +43,9 @@ control groups => limit the amount of resources for a process
 container => running process + resources
 
 docker image => filesystem snapshot + startup command
+
+## 07. How Docker runs on computer
+
+name spacing and control groups are in Linux OS
+
+Docker for OS => Linux virtual machine => Container
