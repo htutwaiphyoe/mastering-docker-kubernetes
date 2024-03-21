@@ -49,3 +49,7 @@ docker image => filesystem snapshot + startup command
 name spacing and control groups are in Linux OS
 
 Docker for OS => Linux virtual machine => Container
+
+## 08. Docker Run in Detail
+
+docker run image-name
