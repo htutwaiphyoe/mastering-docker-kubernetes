@@ -53,3 +53,11 @@ Docker for OS => Linux virtual machine => Container
 ## 08. Docker Run in Detail
 
 docker run image-name
+
+## 09. Overriding Default Commands
+
+default startup command in image => run image-name
+
+docker run image-name command-name => docker run busybox echo Hello, docker run busybox ls
+
+command can be run if only exist in docker image
