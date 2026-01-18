@@ -17,3 +17,17 @@ Docker Image -> thing to run on env
 Data is not shared between Docker Container
 
 ## 2. Docker CLI
+
+Must know CLI command for Linux evn
+
+Docker Engine -> Management of Docker Container & Image
+
+docker run -it ubuntu -> tell docker engine to run ubuntu image -> auto create container for that image
+
+docker ps -a -> List containers
+
+docker images -> List images
+
+docker version
+
+docker info
