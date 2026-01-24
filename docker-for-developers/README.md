@@ -31,3 +31,11 @@ docker images -> List images
 docker version
 
 docker info
+
+-i -> keep interactive -> standard input open
+
+-t -> connected with container terminal
+
+image -> check local first, then download
+
+docker pull image -> download from hub.docker.com
