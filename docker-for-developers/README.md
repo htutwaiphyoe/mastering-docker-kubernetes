@@ -39,3 +39,9 @@ docker info
 image -> check local first, then download
 
 docker pull image -> download from hub.docker.com
+
+docker image inspect image
+
+docker image rm image -> remove container first docker container rm container
+
+docker image prune -> remove all unused images
