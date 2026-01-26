@@ -45,3 +45,11 @@ docker image inspect image
 docker image rm image -> remove container first docker container rm container
 
 docker image prune -> remove all unused images
+
+--name name -> give name
+
+docker kill -> shut down
+
+docker container rm container -> remove
+
+image has entry point -> bash
