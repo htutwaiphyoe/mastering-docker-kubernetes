@@ -53,3 +53,19 @@ docker kill -> shut down
 docker container rm container -> remove
 
 image has entry point -> bash
+
+source code -> docker image -> dockerize
+
+Dockerfile -> config file
+
+From image -> base image
+
+COPY source target
+
+RUN command
+
+WORKDIR path
+
+docker build App .
+
+each command us a layer and each layer is cached
