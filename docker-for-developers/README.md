@@ -54,6 +54,8 @@ docker container rm container -> remove
 
 image has entry point -> bash
 
+## 3. Docker File
+
 source code -> docker image -> dockerize
 
 Dockerfile -> config file
@@ -69,3 +71,9 @@ WORKDIR path
 docker build App .
 
 each command us a layer and each layer is cached
+
+CMD [command]
+
+use lightweight base image
+
+oder layer
