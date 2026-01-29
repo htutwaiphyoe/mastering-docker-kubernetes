@@ -76,4 +76,8 @@ CMD [command]
 
 use lightweight base image
 
-oder layer
+order layer
+
+Port mapping between host machine and container
+
+-p host-port:container-port
