@@ -81,3 +81,9 @@ order layer
 Port mapping between host machine and container
 
 -p host-port:container-port
+
+auto Port mapping
+
+EXPOSE 8000-8009
+
+-itd -P --rm
