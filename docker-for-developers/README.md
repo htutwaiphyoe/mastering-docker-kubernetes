@@ -87,3 +87,9 @@ auto Port mapping
 EXPOSE 8000-8009
 
 -itd -P --rm
+
+hub.docker.com -> github for docker
+
+docker push to hub.docker.com
+
+docker tag LOCAL_NAME REMOTE_NAME
