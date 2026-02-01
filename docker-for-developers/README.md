@@ -93,3 +93,8 @@ hub.docker.com -> github for docker
 docker push to hub.docker.com
 
 docker tag LOCAL_NAME REMOTE_NAME
+docker push LOCAL_NAME
+
+multi stage docker build
+
+docker delete everything of last stage
