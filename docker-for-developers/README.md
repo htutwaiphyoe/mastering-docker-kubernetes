@@ -98,3 +98,14 @@ docker push LOCAL_NAME
 multi stage docker build
 
 docker delete everything of last stage
+
+user in docker image
+
+RUN addgroup --system -gid Id Name
+
+RUN adduser --system -uid Id Name
+
+USER Name
+
+EXPOSE 8000
+ENV PORT=8000
