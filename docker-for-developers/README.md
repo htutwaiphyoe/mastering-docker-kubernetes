@@ -109,3 +109,17 @@ USER Name
 
 EXPOSE 8000
 ENV PORT=8000
+
+## 4. Docker Networking
+
+[Networking](https://docs.docker.com/engine/network/)
+
+Docker Network Driver
+
+docker network
+
+default -> bridge
+
+containers can talk each other
+
+docker exec ContainerName ping Ip
