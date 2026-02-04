@@ -123,3 +123,21 @@ default -> bridge
 containers can talk each other
 
 docker exec ContainerName ping Ip
+
+Default vs User-Defined Bridge
+
+docker network create Network
+
+docker network ls
+
+docker run -itd --network=milkyway --name=Name --rm Image
+
+network -> container -> image
+
+automatic dns between container in same network
+
+container detach to network
+
+docker network connect Network Container
+
+docker network disconnect Network Container
