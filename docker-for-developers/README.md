@@ -141,3 +141,24 @@ container detach to network
 docker network connect Network Container
 
 docker network disconnect Network Container
+
+docker network rm Network
+
+Network mode
+
+- bridge
+- host
+- overlay
+
+host -> no isolation -> direct to host interface
+
+overly -> connect 2 docker daemons
+
+ipvlan -> ip address allocation
+
+macvlan -> docker container as seprate physical machine
+
+none -> no internet connection -> no outside
+
+## Docker Volumes
+
