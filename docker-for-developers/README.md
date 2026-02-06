@@ -162,3 +162,14 @@ none -> no internet connection -> no outside
 
 ## Docker Volumes
 
+container remove -> data clear
+
+different container -> data isolation
+
+access host data from container -> mount volume to container -> link to actual data -> reflect changes -> container remove -> still in host
+
+-v HostFilePath:ContainerFilePath
+
+read & write access by docker container
+
+\ for multiple line command
