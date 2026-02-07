@@ -160,7 +160,7 @@ macvlan -> docker container as seprate physical machine
 
 none -> no internet connection -> no outside
 
-## Docker Volumes
+## 5. Docker Volumes
 
 container remove -> data clear
 
@@ -170,6 +170,12 @@ access host data from container -> mount volume to container -> link to actual d
 
 -v HostFilePath:ContainerFilePath
 
-read & write access by docker container
+read & write access by multiple docker container
 
 \ for multiple line command
+
+custom volume creation -> use by docker container
+
+docker volume create Name
+
+volume -> custom persistent data in docker
