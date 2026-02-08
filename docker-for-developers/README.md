@@ -179,3 +179,26 @@ custom volume creation -> use by docker container
 docker volume create Name
 
 volume -> custom persistent data in docker
+
+## 06. Docker Compose
+
+docker-compose.yml
+
+name: Name
+
+services:
+  Name:
+    image: Image
+    depends_on:
+      - ServiceName
+    container_name: Name
+    environment:
+      ENV_NAME: ENV_VALUE
+    ports:
+     - "HOST_PORT:CONTAINER_PORT"
+
+    -> docker run -it --name Name -e ENV_NAME=ENV_VALUE -p HOST_PORT:CONTAINER_PORT Image
+  
+docker compose up -d
+
+docker compose down
