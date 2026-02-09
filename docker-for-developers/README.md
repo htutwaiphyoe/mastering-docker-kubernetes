@@ -196,9 +196,17 @@ services:
       ENV_NAME: ENV_VALUE
     ports:
      - "HOST_PORT:CONTAINER_PORT"
+    networks:
+      - Network
 
     -> docker run -it --name Name -e ENV_NAME=ENV_VALUE -p HOST_PORT:CONTAINER_PORT Image
+
+networks:
+  Name:
+    driver: Network
   
 docker compose up -d
 
 docker compose down
+
+auto create network by docker compose
