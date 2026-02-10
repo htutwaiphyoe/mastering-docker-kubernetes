@@ -198,13 +198,18 @@ services:
      - "HOST_PORT:CONTAINER_PORT"
     networks:
       - Network
+    volumes:
+      - VolumeName:/FilePath
 
     -> docker run -it --name Name -e ENV_NAME=ENV_VALUE -p HOST_PORT:CONTAINER_PORT Image
 
 networks:
   Name:
     driver: Network
-  
+
+volumes:
+  Name:
+
 docker compose up -d
 
 docker compose down
