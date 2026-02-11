@@ -184,9 +184,18 @@ volume -> custom persistent data in docker
 
 docker-compose.yml
 
+```yaml
 name: Name
 
 services:
+  Name:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: Name
+    ports:
+     - "HOST_PORT:CONTAINER_PORT"
+
   Name:
     image: Image
     depends_on:
@@ -209,9 +218,12 @@ networks:
 
 volumes:
   Name:
+```
 
 docker compose up -d
 
 docker compose down
 
 auto create network by docker compose
+
+build local image file in compose -> no need to publish on hub.docker.com
