@@ -234,4 +234,10 @@ container orchestration -> kubernetes and Docker Swarm
 
 AWS CLI
 
-ECR -> Elastic Container Registry -> AWS of hub.docker.com
+ECR -> Elastic Container Registry -> Docker Hub
+
+ECS -> Elastic Container Service -> Docker Orchestration
+
+Cluster -> group of services
+
+ECR -> ECS -> Containers -> Images
