@@ -241,3 +241,9 @@ ECS -> Elastic Container Service -> Docker Orchestration
 Cluster -> group of services
 
 ECR -> ECS -> Containers -> Images
+
+task definition -> same kernel
+
+downscale services before delete
+
+delete service, cluster, repository
